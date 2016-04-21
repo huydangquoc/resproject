@@ -2,7 +2,145 @@
 <html>
 	<head>
 		<title>Resproject</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<!-- <link ref="stylesheet" media="only screen and (min-width:768px) and (max-width:980px)" href="css/tablet.css" /> -->
+		<style type="text/css">
+		    @media only screen and (min-width: 768px) and (max-width: 960px){
+		        #container{
+					width:95%;
+				}
+
+				.main-header img#logo{
+					margin:0 auto;
+					display: block;
+					width: 65%;
+				}
+
+				#content{
+					width: 100%;
+					float:none;
+				}
+
+				#sidebar{
+					width: 100%;
+					float:none;
+				}
+
+				#sidebar .block{
+					margin-left: 0;
+				}
+		    }
+
+		    /* Smaller tablets */
+   		    @media only screen and (min-width: 569px) and (max-width: 767px){
+		        #container{
+					width:95%;
+				}
+
+				.main-header .main-nav{
+					height: auto;
+					display: block;
+					overflow: hidden;
+					width: 99%;
+				}
+
+				.main-header .main-nav ul{					
+					padding:2% 1%;
+					text-align: center;
+					width: 99%;
+				}
+
+				.main-header .main-nav li{
+					float: none;
+					display: block;
+					margin-right: 0;
+					width: 100%;
+					border-bottom: 1px solid #a3293b;
+				}
+
+				.main-header .main-nav li a{
+					margin-bottom: 2px;
+					text-align: center;
+				}
+
+				.main-header .main-nav li a:hover, .main-header .main-nav li a.active{
+					display: block;
+				}
+
+				#content{
+					width: 100%;
+					float:none;
+				}
+
+				#sidebar{
+					width: 100%;
+					float:none;
+				}
+
+				#sidebar .block{
+					margin-left: 0;
+				}
+			}
+			
+		    /* Smartphones */
+   		    @media only screen and (min-width: 240px) and (max-width: 568px){
+		        #container{
+					width:95%;
+				}
+
+				.main-header img#logo{
+					margin:0 auto;
+					display: block;
+					width: 95%;
+				}
+
+				.main-header .main-nav{
+					height: auto;
+					display: block;
+					overflow: hidden;
+					width: 99%;
+				}
+
+				.main-header .main-nav ul{					
+					padding:2% 1%;
+					text-align: center;
+					width: 99%;
+				}
+
+				.main-header .main-nav li{
+					float: none;
+					display: block;
+					margin-right: 0;
+					width: 100%;
+					border-bottom: 1px solid #a3293b;
+				}
+
+				.main-header .main-nav li a{
+					margin-bottom: 2px;
+					text-align: center;
+				}
+
+				.main-header .main-nav li a:hover, .main-header .main-nav li a.active{
+					display: block;
+				}
+
+				#content{
+					width: 100%;
+					float:none;
+				}
+
+				#sidebar{
+					width: 100%;
+					float:none;
+				}
+
+				#sidebar .block{
+					margin-left: 0;
+				}
+   		    }
+		</style>
 		<script src="js/jquery.js"></script>
 		<script>
 			// Toggle for width display
