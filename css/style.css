@@ -9,7 +9,7 @@ body{
 
 a{
 	text-decoration:none;
-	color:#781a26;
+	color:#3399ff;
 }
 
 a:hover{
@@ -17,7 +17,7 @@ a:hover{
 }
 
 h2{
-	color:#781a26;
+	color:#3399ff;
 }
 
 .clr{
@@ -40,10 +40,10 @@ h2{
 }
 
 .main-header .main-nav{
-	background:#882433;
+	background:#0066ff;
 	height:40px;
 	border-radius:5px;
-	border:#c13046 1px solid;
+	border:#66ccff 1px solid;
 }
 
 .main-header .main-nav ul{
@@ -66,8 +66,8 @@ h2{
 }
 
 .main-header .main-nav li a:hover,.main-header .main-nav li a.active{
-	background:#efeadd;
-	color:#781a26;
+	background:#ccffff;
+	color:#3399ff;
 	border-radius:5px;
 }
 
@@ -96,12 +96,12 @@ h2{
 	float:right;
 	color:#ffffff;
 	padding:5px 9px;
-	background:#c13046;
+	background:#66ccff;
 	border-radius:5px;
 }
 
 #content a.readmore:hover{
-	background:#000000;
+	background:#0000ff;
 }
 
 #sidebar{
@@ -119,9 +119,9 @@ h2{
 }
 
 footer{
-	background:#882433;
+	background:#0066ff;
 	height:40px;
-	border:#c13046 1px solid;
+	border:#66ccff 1px solid;
 	border-radius:5px;
 	margin-top:10px;
 }
@@ -151,7 +151,7 @@ footer p{
 	.main-header .main-nav{
 		height:40px;
 		border-radius:5px;
-		border:#c13046 1px solid;
+		border:#66ccff 1px solid;
 		transition: height 1s; /* animation */
 	}
 	
@@ -190,7 +190,7 @@ footer p{
 	.main-header .main-nav{
 		height:auto;
 		border-radius:5px;
-		border:#c13046 1px solid;
+		border:#66ccff 1px solid;
 		display:block;
 		overflow:hidden;
 		width:99%;
@@ -254,7 +254,7 @@ footer p{
 	.main-header .main-nav{
 		height:auto;
 		border-radius:5px;
-		border:#c13046 1px solid;
+		border:#66ccff 1px solid;
 		display:block;
 		overflow:hidden;
 		width:99%
